@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+
+</head>
+<body>
+
+    <div class="main">  
+
+        <div id="input-todo">
+            
+        <input id="input" class="input" type="text" placeholder="to do...">
+       <button type="button" class="submit-button button" id="submit-button">add</button>
+       
+        </div>
+
+        <div id="note">
+<h2 id="note-text">Double-click to mark Completed</h2>
+
+        </div>
+
+<div id="todo-view">
+<!--will use js to call a div using javascript-->
+<ul id="list">
+
+</ul>
+</div>
+
+<div id="todo-buttons">
+<button type="button" id="save" class="btn button" onclick="save()">Save</button>
+<button type="button" id="clear" class="btn button" onclick="clearall()">Clear Completed</button>
+<button type="button" id="delete-all" class="btn button" onclick="delAll()">Delete All</button>
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
